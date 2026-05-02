@@ -18,6 +18,13 @@ return {
   ---@module 'neo-tree'
   ---@type neotree.Config
   opts = {
+    popup_border_style = 'rounded',
+    event_handlers = {
+      {
+        event = 'neo_tree_window_after_close',
+        handler = function() end,
+      },
+    },
     filesystem = {
       window = {
         mappings = {
