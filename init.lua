@@ -165,6 +165,9 @@ vim.o.exrc = true
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Russian keyboard layout: map Cyrillic keys to Latin equivalents in Normal/Visual mode
+vim.opt.langmap = [[ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,х[,ъ],ж\;,э',б\,,ю.,Х{,Ъ},Ж:,Э",Б<,Ю>]]
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
