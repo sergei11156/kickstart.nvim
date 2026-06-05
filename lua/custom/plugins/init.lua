@@ -12,4 +12,8 @@ return {
     ft = { 'markdown' },
     opts = {},
   },
+  {
+    'dhruvasagar/vim-table-mode',
+    ft = { 'markdown' },
+  },
 }
