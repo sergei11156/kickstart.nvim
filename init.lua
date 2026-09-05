@@ -626,7 +626,17 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
 
-        intelephense = {},
+        intelephense = {
+          settings = {
+            intelephense = {
+              environment = {
+                includePaths = {
+                  '/Users/sergej/workspace/webasyst-docker/www',
+                },
+              },
+            },
+          },
+        },
 
         stylua = {}, -- Used to format Lua code
 
